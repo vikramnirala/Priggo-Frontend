@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="17px" viewBox="0 0 13 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>trash</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="AccountSettings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="360-AccountDetails_AccountSettings_Validation" transform="translate(-640.000000, -273.000000)" stroke="#00A3DA">
+            <g id="content" transform="translate(241.000000, 106.000000)">
+                <g id="input_form" transform="translate(2.000000, 116.000000)">
+                    <g id="photo_profile">
+                        <g id="trash" transform="translate(397.000000, 52.000000)">
+                            <path d="M6.44651163,3.5 L6.44651163,13.2511628" id="Shape"></path>
+                            <path d="M3.58139535,3.93953488 L4.29767442,13.2511628" id="Shape"></path>
+                            <path d="M9.31162791,3.93953488 L8.59534884,13.2511628" id="Shape"></path>
+                            <path d="M12.1767442,1.79069767 L10.8516279,14.4330233 C10.78,14.9702326 10.3502326,15.4 9.7772093,15.4 L3.11581395,15.4 C2.57860465,15.4 2.11302326,14.9702326 2.04139535,14.4330233 L0.71627907,1.79069767" id="Shape"></path>
+                            <path d="M0,2.05333333 L12.9976,2.05333333" id="Shape"></path>
+                            <path d="M3.58139535,1.43255814 L3.58139535,0.71627907 C3.58139535,0.322325581 3.90372093,0 4.29767442,0 L8.59534884,0 C8.98930233,0 9.31162791,0.322325581 9.31162791,0.71627907 L9.31162791,1.43255814" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,65 @@
+/* Variable scss Document */
+
+/* Position variables */
+
+$relative: relative;
+$absolute: absolute;
+$fixed: fixed;
+$static: static;
+
+/* color variables */
+
+$white: #fff;
+$title_color:#4d4e4c;
+$body_color:#4d4e4c;
+$blue:#00a3da;
+$blue_heading:#35a1ce;
+$focus_color:#028dbc;
+$grey_focus:#7a7c78;
+$dropdown-hover:#e5f5fb;
+$red_heading:#d03859;
+$anchor:#1291d1;
+$light_blue:#4abde4;
+$grey_color:#959ea5;
+$dark_blue:#394f60;
+$white_light:#e8eaec;
+$light_grey:#c3c4c3;
+$light_black:#565859;
+$dark_grey_color:#a4a4a3;
+$grey_border:#d0d0d0;
+$black_Dark:#4c4b57;
+$red_color:#cf3455;
+$grey_color_btn:#bdc5c7;
+$para_color:#595a58;
+$label_color:#6c6d6b;
+$radio_color:#b4b4b3;
+$grey_light:#dfdfdf;
+$grey:#aaaaaa;
+$green_color:#00da56;
+$placeholder-color:rgba(77, 78, 76, 0.4);
+$disabled_field_bg:#f1f2f2;
+
+
+/* Font variables */
+
+$lato:'Lato', sans-serif;
+
+
+/* Other variables */
+
+$block: block;
+$center: center;
+$middle: middle;
+$table_cell: table-cell;
+$hidden:hidden;
+$visible:visible;
+$left: left;
+$right: right;
+$inline_block: inline-block;
+$no_margin: 0px 0px 0px 0px;
+$no_padding: 0px 0px 0px 0px;
+$no_border: 0px;
+$width_full: 100%;
+$height_full: 100%;
+$height_none: 0px;
+

@@ -1,0 +1,414 @@
+/*Sections starts here*/
+.layout_one{
+	background:#1e3445 url(../images/blue_bg.png)repeat-x left top;
+	 background: -webkit-gradient(linear, left top, left bottom, from(#3a5060), to(#1e3445)) fixed;
+	 background: -ms-linear-gradient(linear, left top, left bottom, from(#3a5060), to(#1e3445)) fixed;
+	 background: -moz-linear-gradient(linear, left top, left bottom, from(#3a5060), to(#1e3445)) fixed;
+	 background: -o-linear-gradient(linear, left top, left bottom, from(#3a5060), to(#1e3445)) fixed;
+	 background:  -webkit-gradient(linear, left top, left bottom, from(#3a5060), to(#1e3445)) fixed;
+	 background:  -webkit-gradient(linear, left top, left bottom, from(#3a5060), to(#1e3445)) fixed;
+	 background:   linear-gradient(linear, left top, left bottom, from(#3a5060), to(#1e3445)) fixed;
+	header{
+		text-align:$center;
+		@include rem(padding,40px 0 0);
+		a{color:$white;
+		opacity: 0.6;
+			@include rem(font-size, 18px);
+			font-weight:300;
+			letter-spacing: 1.5px;
+            margin-right:65px;			
+			&:hover{
+				color:$white;
+				opacity:1;
+				
+			}
+			&:last-child{
+				margin-right:0px;
+			}
+			&.active{
+			color:$white;
+			opacity:1;
+			}
+		}
+		&.top_header{
+			@include rem(padding,40px 0 0);
+		}
+	}
+	#footer{
+	&.not_sticky{position:static;}
+		@include position(absolute, $right:0px, $bottom:0px, $left:0px);
+		@include size(100%,auto);
+		text-align:$center;
+		@include rem(padding,20px 0);
+	ul{
+		li{
+			display:$inline-block;
+			@include rem(margin,0px 25px 0 0px);
+			a{
+				color:$white;
+				letter-spacing: 0.4px;
+				opacity:0.8;
+				font-weight: 300;
+				border-bottom:1px solid transparent;
+				&:hover{
+					border-bottom:1px solid $white;
+				}
+			}
+			&:last-child{margin-right:0;}
+		}
+	}
+	}
+	.form-control{
+		border-color:$grey_border;
+	}
+}
+.white_wrapper{
+	&.space_less{
+		@include padding(30px 38px);
+	}
+	@include size(500px,auto);
+	max-width:100%;
+	min-height:542px;
+	@include padding(40px 38px);
+	background:$white; 
+	@include border-radius(6px);
+	@include position(absolute, $top:50%, $left:50%);
+	@include margin(-271px 0px 0 -250px);
+	text-align:$center;
+	box-shadow: 0 21px 63px 0 rgba(0, 0, 0, 0.2);
+	.logo{
+		
+	}
+	.btn{
+		@include rem(margin,25px auto 0);
+		&.space_less{margin-top:0;}
+		&.btn_lg.ls{
+			@include rem(margin,10px auto 0);
+		}
+	}
+	.content{
+		@include margin(85px 0 0);
+		h2{@include rem(font-size, 24px); 
+			color:$title_color;
+			@include rem(margin,22px 0 20px);
+			letter-spacing: 1px;
+		}
+		p{
+			font-weight:300;
+			letter-spacing: 0.8px;
+		}
+	.checkbox{
+		float:$left;
+		label{
+			color:$black_Dark;
+			padding-left: 36px;
+		}
+	}
+	.fgp{
+		float:$right;
+		font-weight:bold;
+	}
+	&.form{
+		.login{
+			@include size(350px,auto);
+			max-width:100%;
+			@include rem(margin,0px auto 0);
+		}
+		p{
+		@include rem(font-size, 13px); 
+		}
+		h2{
+			@include rem(margin,40px 0 20px);
+		}
+		@include rem(margin,60px 0 0);
+		.form-group{
+			&.last{
+				@include rem(margin,30px 0 20px);
+			}
+		}
+	&.space_less{
+		@include rem(margin,30px 0 0);
+	}
+	.validation_msg{
+		@include rem(margin,0px 0 15px);
+	}
+	}
+	&.space_more{
+		@include rem(margin,100px 0 0);
+	}
+	&.space_less{
+		@include rem(margin,45px 0 0);
+	}
+	}
+}
+.email_template{
+	&.width_768{
+		@include size(768px,auto);
+	}
+	@include size(600px,auto);
+	max-width:100%;
+	@include rem(margin,0 auto);
+	@include rem(padding,60px 20px);
+	text-align:$center;
+	.content{
+		@include rem(margin,80px auto 90px);
+		h2{@include rem(font-size, 24px); 
+			color:$title_color;
+			letter-spacing: 1px;
+			@include rem(margin,25px 0);
+			font-weight: bold;}
+		h1{@include rem(font-size, 36px); 
+			color:$title_color;
+			letter-spacing: 1.5px;
+			@include rem(margin,25px 0);
+			font-weight: bold;}
+		p{	color:$light_black; 
+			letter-spacing: 0.5px; 
+			@include rem(font-size, 16px);
+			line-height:26px; 
+		}
+		.btn{
+			@include rem(margin,25px 0 0);
+		}
+	}
+	footer{
+		@include position(absolute, $right:0px, $bottom:0px, $left:0px);
+		@include size(100%,auto);
+		text-align:$center;
+		@include rem(padding,20px 0);
+		ul{
+			li{
+			color:$title_color;
+			display:$inline-block;
+			a{
+				color:$title_color; 
+				@include rem(margin,0px 8px);
+				@include rem(font-size, 13px);
+				font-weight: 300;
+				letter-spacing: 0.5px;
+				&:hover{border-bottom:1px solid $title_color;}
+			}
+			}
+		}
+	}
+	.payment_details{
+			@include size(320px,auto);
+			max-width:100%;
+			@include rem(margin,50px auto 15px);
+		h3{
+			@include rem(font-size, 20px); 
+			color:$title_color;
+			letter-spacing: 0.8px;
+		}
+		ul{
+			@include rem(padding,40px 0 0);
+			text-align:$left;
+			li{
+				@include rem(font-size, 12px); 
+				  letter-spacing: 0.2px;
+				  color:$grey;
+				  @include rem(padding,10px 0);
+				  border-bottom:1px solid rgba(77,78,76,0.2);
+				span{
+					font-weight: bold;
+					letter-spacing: 0.2px;
+					 color:$title_color;
+					 text-align:$center;
+					float:$right;
+					@include size(38%,auto);
+					text-align:$left;
+				}
+			}
+		}
+	}
+	.artwork_status{
+		&.space_less{padding-top:0;}
+		&.width_610{
+			@include size(610px,auto);
+			max-width:100%; margin:0 auto;}
+			@include rem(padding,60px 0 55px);
+		.table{
+			 border-collapse: separate; 
+			 border-spacing:0;
+			border:0;
+			thead{
+				tr{
+				 th{border:0; 
+				 @include rem(font-size, 14px); 
+				letter-spacing: 0.4px;
+				color:$title_color; font-weight:400; @include rem(padding,20px 0 20px 20px);}
+				}
+			}
+			tbody{
+			 tr{
+				&.gap{    height: 20px; border: 0;}
+			  td{
+				@include rem(font-size, 16px);
+				color:$title_color;
+				border:0;
+				@include rem(padding,22px 0 22px 20px);
+				vertical-align:$middle;
+				font-weight:400;
+				text-align:$left;
+				border-top: solid 1px rgba(77, 78, 76, 0.2);
+				border-bottom: solid 1px rgba(77, 78, 76, 0.2);
+				&.img{@include rem(padding,0px 0px 0px 55px);}
+				&:first-child{
+				border-left: solid 1px rgba(77, 78, 76, 0.2);
+				@include border-radius(4px 0 0px 4px);
+				}
+				&:last-child{
+				border-right: solid 1px rgba(77, 78, 76, 0.2);
+				@include border-radius(0px 4px 4px 0px);
+				}
+			  }
+			 }
+			}
+		}
+	
+	}
+}
+.subscibe_form{
+	    position: static !important;
+    transform: none !important;
+	@include rem(padding,60px 55px 50px);
+	@include rem(margin,50px auto);
+	@include size(600px,auto);
+	text-align:$left;
+	.top-info{
+		@include rem(padding,50px 0 15px);
+		h2{
+		@include rem(font-size, 24px); 
+		color:$title_color;
+		@include rem(margin,0px 0 30px);
+		line-height:30px;
+		letter-spacing: 0.5px;
+		}
+		p{
+		letter-spacing:0.8px;
+		@include size(407px,auto);
+		max-width:100%;
+		}
+		ul{
+			@include rem(margin,30px 0px 0 0px);
+			overflow:$hidden;
+			li{
+				font-weight: 300;
+				letter-spacing: 0.3px;
+				float:$left;
+				@include rem(margin,0px 48px 0 0px);
+			&:last-child{
+				@include rem(margin,0px 0px 0 0px);
+			}
+			&.total{float:$right;}
+			h2{
+				@include rem(margin,10px 0px 0 0px);
+			}
+			}
+		}
+	}
+	.bottom-info{
+	 a{
+	 &:hover{color:$body_color;}
+	 }
+		&.space_less{@include rem(padding,25px 0px 0px);}
+		&.space_dec{@include rem(padding,0px 0px 20px);}
+		@include rem(padding,35px 0px);
+		overflow:hidden;
+		p{
+		color:$black_Dark;
+		font-size:15px !important;
+		}
+		.checkbox{
+				@include rem(padding,30px 0px 30px);
+			label{
+				position:$relative;
+				@include rem(padding,0px 0px 15px 36px);
+				a{border-bottom:1px solid $blue; color:$blue;}
+			}
+		}
+		.captcha{
+			.form-control{
+				width:180px;
+				float:$left;
+			}
+			span{
+			    display:$inline-block;
+				line-height: 50px;
+				@include rem(padding,0px 0px 0 38px);
+			}
+		}
+	}
+	.content{
+		 &.form{
+			margin:0;
+		 }
+	}
+}
+.registration_form{
+	label{
+		color:$label_color;
+		&.btn {
+		border:0;
+		font-weight: 400;
+		height: 100%;
+		padding:0;
+		margin:0;
+		outline:none !important;
+		box-shadow:none !Important;
+		width: 50%;
+		float:$left;
+		text-align:$left;
+		}
+	}
+	.btn-group{
+		display:$block;
+		@include rem(padding,15px 0px 10px 0px);
+	}
+	.clear{
+		float:$left;
+		width:100%;
+	}
+	.half{
+	 width: 235px; float:$left; @include rem(margin,0px 20px 0px 0px);
+	&:last-child{
+	margin:0;
+	}
+	}
+}
+.payment_form{
+	@include rem(padding,35px 0 0);
+	@include rem(margin,10px 0 0);
+	border-top:2px solid $grey_light;
+	.form-group{
+		label{
+			font-weight:400;
+			letter-spacing: 0.5px;
+			float:$left;
+			width:30%;
+			line-height:50px;
+			margin:0;
+		}
+		.form-control{
+			float:$right;
+			width:70%;
+		}
+		&.cvc{
+			.form-control{
+				width:28%;
+				float:$left;
+			}
+			.cvc_icon{
+				display:$inline-block;
+				line-height: 50px;
+				@include rem(margin,0px 0 0 15px);
+			}
+		}
+		.btn-group.bootstrap-select{
+			width:190px !important;
+		}
+	}
+}
+
+
+

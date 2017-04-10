@@ -1,0 +1,51 @@
+/*Buttons starts here*/
+.btn{
+	@include rem(margin,0px auto 0);
+	@include rem(padding,12px 20px);
+	@include rem(font-size, 16px);
+	@include border-radius(50px);
+	@include min-size(150px,50px);
+	font-weight:bold;
+	letter-spacing: 0.6px;
+	color:$white;
+	line-height:24px;
+	&.btn_blue{
+		background:$blue; 
+		color:$white;
+		&:hover{
+			background:$light_blue;
+		}
+		&:focus{
+			background:$focus_color;
+		}
+	}
+	&.disable{
+		cursor: not-allowed;
+		background:$grey_color_btn;
+		color:$white;
+	}
+	&.default{
+	box-shadow:none;
+	color:$blue;
+	font-weight:600;
+	&:hover{
+		color:$title_color;
+	}
+	&:focus{
+		color:$grey_focus;
+	}
+	}
+	&.btn_lg{
+		@include min-size(220px,50px);
+	}
+	&:focus{
+		outline:none;
+		box-shadow:none;
+	}
+	&:active{
+		outline:none;
+		box-shadow:none;
+	}
+}
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>trash-box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Quotes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1420-Quotes_Preview" transform="translate(-420.000000, -181.000000)" stroke="#CF3455">
+            <g id="content" transform="translate(110.000000, 109.000000)">
+                <g id="navigations">
+                    <g id="buttons" transform="translate(0.000000, 62.000000)">
+                        <g id="delete_button" transform="translate(290.000000, 0.000000)">
+                            <g id="Group-20" transform="translate(21.000000, 10.000000)">
+                                <g id="Userinterface_trash-box" transform="translate(0.000000, 1.000000)">
+                                    <g id="trash-box">
+                                        <rect id="Rectangle-path" x="0" y="0" width="9" height="1.92857143"></rect>
+                                        <path d="M8.35714286,1.92857143 L8.16428571,8.16428571 C8.14285714,8.63571429 7.77857143,9 7.30714286,9 L1.69285714,9 C1.22142857,9 0.857142857,8.63571429 0.835714286,8.16428571 L0.642857143,1.92857143" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

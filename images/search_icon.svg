@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>search_1_</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="OrderCentre" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.3">
+        <g id="1510-OrderCentre" transform="translate(-302.000000, -178.000000)" stroke="#525351">
+            <g id="content" transform="translate(110.000000, 108.000000)">
+                <g id="top_content" transform="translate(0.000000, 62.000000)">
+                    <g id="search_field" transform="translate(183.000000, 0.000000)">
+                        <g id="Userinterface_search-53" transform="translate(10.000000, 9.000000)">
+                            <g id="search_1_">
+                                <circle id="Oval" cx="4.2" cy="4.2" r="4.2"></circle>
+                                <path d="M7.71,6.84 L11.79,10.92 C11.91,11.04 11.91,11.22 11.79,11.34 L11.37,11.76 C11.25,11.88 11.07,11.88 10.95,11.76 L6.84,7.71" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

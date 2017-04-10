@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="----" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="40SessionExpired" transform="translate(-491.000000, -322.000000)" stroke-width="2">
+            <g id="card_placeholder" transform="translate(264.000000, 122.000000)">
+                <g id="body" transform="translate(38.000000, 42.000000)">
+                    <g id="Group-2" transform="translate(0.000000, 159.000000)">
+                        <g id="icon" transform="translate(190.000000, 0.000000)">
+                            <g id="cloud-reload">
+                                <path d="M40.0909091,42 L1.90909091,42 C0.859090909,42 0,41.1409091 0,40.0909091 L0,1.90909091 C0,0.859090909 0.859090909,0 1.90909091,0 L40.0909091,0 C41.1409091,0 42,0.859090909 42,1.90909091 L42,40.0909091 C42,41.1409091 41.1409091,42 40.0909091,42 Z" id="Shape" stroke="#4D4E4C"></path>
+                                <circle id="Oval" stroke="#4D4E4C" cx="3.81818182" cy="3.81818182" r="0.477272727"></circle>
+                                <ellipse id="Oval" stroke="#4D4E4C" cx="7.63636364" cy="3.81818182" rx="0.477272727" ry="0.477272727"></ellipse>
+                                <ellipse id="Oval" stroke="#4D4E4C" cx="11.4545455" cy="3.81818182" rx="0.477272727" ry="0.477272727"></ellipse>
+                                <path d="M0,7.63636364 L42,7.63636364" id="Shape" stroke="#4D4E4C"></path>
+                                <g id="Group" transform="translate(13.363636, 16.227273)" stroke="#CF3455">
+                                    <path d="M0.286363636,9.54545455 C1.14545455,12.7909091 4.10454545,15.2727273 7.63636364,15.2727273 C11.1681818,15.2727273 14.1272727,12.7909091 14.9863636,9.54545455" id="Shape"></path>
+                                    <path d="M14.9863636,5.72727273 C14.1272727,2.48181818 11.1681818,0 7.63636364,0 C4.10454545,0 1.14545455,2.48181818 0.286363636,5.72727273" id="Shape"></path>
+                                </g>
+                                <polyline id="Shape" stroke="#CF3455" points="24.8181818 21 28.6363636 21.9545455 29.5909091 18.1363636"></polyline>
+                                <polyline id="Shape" stroke="#CF3455" points="12.4090909 29.5909091 13.3636364 25.7727273 17.1818182 26.7272727"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

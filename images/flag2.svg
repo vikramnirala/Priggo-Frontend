@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="OrderCentre" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1510-OrderCentre" transform="translate(-137.000000, -483.000000)">
+            <g id="content" transform="translate(110.000000, 108.000000)">
+                <g id="order_list" transform="translate(0.000000, 199.000000)">
+                    <g id="table" transform="translate(23.000000, 69.000000)">
+                        <g id="text" transform="translate(4.000000, 0.000000)">
+                            <g id="Group">
+                                <g id="priority" transform="translate(0.000000, 47.000000)">
+                                    <g id="flag" transform="translate(0.000000, 60.000000)">
+                                        <g id="Capa_1">
+                                            <polygon id="Shape" fill="#00A3DA" points="16 12 0.666666667 12 0.666666667 1.33333333 16 1.33333333 12.6666667 6.66666667"></polygon>
+                                            <path d="M0.333333333,0 C0.149333333,0 0,0.149 0,0.333333333 L0,1.33333333 L0,19.6666667 C0,19.851 0.149333333,20 0.333333333,20 C0.517333333,20 0.666666667,19.851 0.666666667,19.6666667 L0.666666667,1.33333333 L0.666666667,0.333333333 C0.666666667,0.149 0.517333333,0 0.333333333,0 Z" id="Shape" fill="#424A60"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

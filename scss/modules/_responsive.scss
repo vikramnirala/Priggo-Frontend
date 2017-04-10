@@ -1,0 +1,41 @@
+/* Large Devices, Wide Screens */
+
+@media (min-width: 1200px){
+
+}
+@media screen and (max-height: 730px) {
+.layout_one{
+	 header{
+		@include rem(padding,20px 0 0);
+	 }
+}
+}
+@media screen and (max-height: 660px) {
+ .layout_one {
+	.white_wrapper{
+		position:$static;
+		transform:none;
+		@include rem(margin,50px auto);
+	  }
+	 #footer{
+		position:static;
+	 }
+	  header{
+		@include rem(padding,40px 0 0);
+	 }
+ }
+ .modal{
+	 .content.scroller {
+		height:380px;
+	}
+ }
+  
+
+}
+
+
+
+
+
+
+

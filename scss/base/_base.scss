@@ -1,0 +1,120 @@
+/* Base */
+
+
+*{ 
+	margin: $no_margin;
+	padding: $no_padding;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html{
+	height: 100%;
+  box-sizing: border-box;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+body{
+	font-family:$lato;
+	@include rem(line-height, 21px);
+	@include rem(font-size, 14px);
+	min-height:100%;
+	color:$body_color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	 position:$relative;
+}
+
+#page_wrapper{
+	height:100%;
+}
+
+h1{ 
+	margin: $no_margin;
+}
+
+h2{
+    margin: $no_margin;
+}
+
+h3{
+	margin: $no_margin;
+}
+
+h4{
+	margin: $no_margin;
+}
+
+h5{
+	margin: $no_margin;
+}
+
+h6{
+	margin: $no_margin;
+}
+
+p{
+	margin: $no_margin;
+}
+
+ul{ 
+	margin: $no_margin;
+}
+
+ul li{ 
+	list-style:none;
+}
+
+a{ 
+	outline:none; 
+	text-decoration:none; 
+	transition: background-color .4s ease 0s;
+	color:$blue;
+	 &:hover{
+		color:$body_color;
+	 }
+	 &:focus{
+		text-decoration: none; 
+		transition: background-color .3s, color .3s; 
+		outline: none;
+		color:$grey_focus;
+	 }
+}
+
+a:link, a:hover, a:active{ 
+	text-decoration: none; 
+	transition: background-color .3s, color .3s; 
+	outline: none;
+}
+
+.btn{ 
+	border:0px; cursor:pointer; 
+	transition: background-color .4s ease 0s;
+	&:focus{
+		outline:none !important;
+	}
+}
+
+
+img{ 
+	max-width:100%; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+	-webkit-user-drag: none; 
+	user-drag: none; 
+	-webkit-touch-callout: none;
+}
+
+.clr{ 
+	clear:both;
+}

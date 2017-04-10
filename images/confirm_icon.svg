@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="109px" viewBox="0 0 109 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="AccountSettings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="440-AccountDetails_Users_Delete_Confirm" transform="translate(-559.000000, -297.000000)">
+            <g id="icon" transform="translate(559.000000, 297.000000)">
+                <g id="Group-3" transform="translate(53.000000, 32.000000)" stroke="#CF3455" stroke-width="4" stroke-linecap="square">
+                    <path d="M2,0.5 L2,31.5" id="Line"></path>
+                    <path d="M2,42.5 L2,44.5" id="Line"></path>
+                </g>
+                <path d="M54.5,109 C84.6057894,109 109,84.5934516 109,54.5 C109,24.4065484 84.6057894,0 54.5,0 C24.3942106,0 0,24.4065484 0,54.5 C0,84.5934516 24.3942106,109 54.5,109 Z M54.5,105.55854 C26.3368883,105.55854 3.49482142,82.7049199 3.49482142,54.5 C3.49482142,26.2950801 26.3368883,3.44146048 54.5,3.44146048 C82.6631117,3.44146048 105.505179,26.2950801 105.505179,54.5 C105.505179,82.7049199 82.6631117,105.55854 54.5,105.55854 Z" id="Oval" fill-opacity="0.101279438" fill="#4D4E4C"></path>
+            </g>
+        </g>
+    </g>
+</svg>

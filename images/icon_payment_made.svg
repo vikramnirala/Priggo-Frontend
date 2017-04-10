@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="41px" viewBox="0 0 47 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="login&amp;subscribe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="250Subscribe_Payment_Success" transform="translate(-487.000000, -317.000000)">
+            <g id="card_placeholder" transform="translate(264.000000, 122.000000)">
+                <g id="body" transform="translate(102.000000, 42.000000)">
+                    <g id="Group" transform="translate(0.000000, 153.000000)">
+                        <g id="icon" transform="translate(122.000000, 0.000000)">
+                            <g id="card-pass">
+                                <path d="M35.5816748,7.36363636 L40.8139535,7.36363636 C43.125845,7.36363636 45,9.23779333 45,11.5496829 L45,35.6194503 C45,37.9313419 43.125845,39.8054968 40.8139535,39.8054968 L4.18604651,39.8054968 C1.87415676,39.8054968 0,37.9313419 0,35.6194503 L0,11.5496829 C0,9.23779333 1.87415676,7.36363636 4.18604651,7.36363636 L10.4650384,7.36363636" id="Shape" stroke="#4D4E4C" stroke-width="2"></path>
+                                <g id="Group" transform="translate(10.465116, 25.116279)" stroke="#4D4E4C" stroke-width="2">
+                                    <path d="M1.20792265e-13,-4.97379915e-13 L2.09302326,-4.97379915e-13" id="Shape"></path>
+                                    <path d="M6.27906977,-4.97379915e-13 L20.9302326,-4.97379915e-13" id="Shape" stroke-dasharray="4,4"></path>
+                                    <path d="M23.0232558,-4.97379915e-13 L25.1162791,-4.97379915e-13" id="Shape"></path>
+                                </g>
+                                <polygon id="Combined-Shape" stroke="#00A3DA" fill="#00A3DA" points="20.5289256 9.33309948 15.6942149 4.42094186 14.7272727 5.40337338 20.5289256 11.2979625 30.6818182 0.982431524 29.714876 3.99680289e-14"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
