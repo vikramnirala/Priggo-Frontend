@@ -58,7 +58,6 @@ hr{
 .modal{
 	.modal-body{
 		@include size(800px,auto);
-		max-width:100%;
 		@include rem(padding,50px 20px 50px 45px);
 		background:$white; 
 		transform:translate(-50%,-50%);

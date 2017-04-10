@@ -32,6 +32,37 @@
   
 
 }
+@media screen and (max-width: 767px) {
+.page_wrapper{
+width:600px;
+margin:0 auto;
+}
+.email_template{
+	 footer{
+	 width:500px;
+	 margin:0 auto;
+	 }
+}
+ .layout_one {
+	.white_wrapper{
+		position:$static;
+		transform:none;
+		@include rem(margin,50px auto);
+	  }
+	 #footer{
+		width:500px;
+		margin:0 auto;
+	 }
+	  header{
+		@include rem(padding,40px 0 0);
+	 }
+ }
+ .modal{
+	 .content.scroller {
+		height:380px;
+	}
+ }
+}
 
 
 
