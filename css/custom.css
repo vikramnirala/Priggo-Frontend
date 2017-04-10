@@ -6235,16 +6235,16 @@ hr {
 
 /* Form-control css */
 .form-control::-webkit-input-placeholder {
-  color: rgba(77, 78, 76, 0.4); }
+  color: rgba(77, 78, 76, 0.6); }
 
 .form-control::-moz-placeholder {
-  color: rgba(77, 78, 76, 0.4); }
+  color: rgba(77, 78, 76, 0.6); }
 
 .form-control:-ms-input-placeholder {
-  color: rgba(77, 78, 76, 0.4) !important; }
+  color: rgba(77, 78, 76, 0.6) !important; }
 
 .form-control.placeholder {
-  color: rgba(77, 78, 76, 0.4) !important; }
+  color: rgba(77, 78, 76, 0.6) !important; }
 
 .registration_form .form-control.half.placeholder + .half + .placeholder {
   margin-right: 0; }
@@ -6253,7 +6253,7 @@ hr {
   margin-right: 0; }
 
 .form-control:-moz-placeholder {
-  color: rgba(77, 78, 76, 0.4); }
+  color: rgba(77, 78, 76, 0.6); }
 
 .form-control[disabled], fieldset[disabled] .form-control {
   border: 0px;
@@ -6524,7 +6524,7 @@ label:hover input[type="radio"] ~ i.fa {
     box-shadow: none;
     outline: none;
     background: transparent !important;
-    color: rgba(77, 78, 76, 0.4) !important;
+    color: rgba(77, 78, 76, 0.6) !important;
     padding: 6px 12px;
     font-size: 14px;
     border-radius: 4px;
@@ -6826,7 +6826,6 @@ label:hover input[type="radio"] ~ i.fa {
       /* 9 */
       letter-spacing: 1px; }
     .white_wrapper .content p {
-      font-weight: 300;
       letter-spacing: 0.8px; }
     .white_wrapper .content .checkbox {
       float: left; }
@@ -7132,7 +7131,6 @@ label:hover input[type="radio"] ~ i.fa {
       /* 9 */
       font-size: 1.3rem;
       /* 9 */
-      font-weight: 300;
       letter-spacing: 0.5px;
       color: #4d4e4c; }
       .email_template footer ul li a {
@@ -7473,7 +7471,6 @@ label:hover input[type="radio"] ~ i.fa {
       /* 9 */
       overflow: hidden; }
       .subscibe_form .top-info ul li {
-        font-weight: 300;
         letter-spacing: 0.3px;
         float: left;
         /* 3 */
@@ -7818,11 +7815,11 @@ label:hover input[type="radio"] ~ i.fa {
     height: 380px; } }
 @media screen and (max-width: 767px) {
   .page_wrapper {
-    width: 600px;
+    width: 800px;
     margin: 0 auto; }
 
   .email_template footer {
-    width: 500px;
+    width: 800px;
     margin: 0 auto; }
 
   .layout_one .white_wrapper {
@@ -7841,7 +7838,7 @@ label:hover input[type="radio"] ~ i.fa {
     margin: 5rem auto;
     /* 9 */ }
   .layout_one #footer {
-    width: 500px;
+    width: 800px;
     margin: 0 auto; }
   .layout_one header {
     /* 3 */

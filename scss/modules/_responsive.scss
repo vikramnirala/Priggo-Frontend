@@ -34,12 +34,12 @@
 }
 @media screen and (max-width: 767px) {
 .page_wrapper{
-width:600px;
+width:800px;
 margin:0 auto;
 }
 .email_template{
 	 footer{
-	 width:500px;
+	 width:800px;
 	 margin:0 auto;
 	 }
 }
@@ -50,7 +50,7 @@ margin:0 auto;
 		@include rem(margin,50px auto);
 	  }
 	 #footer{
-		width:500px;
+		width:800px;
 		margin:0 auto;
 	 }
 	  header{
